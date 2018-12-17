@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		FC21A8932191150E0023473C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21A8922191150E0023473C /* AppDelegate.swift */; };
-		FC21A8952191150E0023473C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21A8942191150E0023473C /* ViewController.swift */; };
+		FC21A8952191150E0023473C /* SelectPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21A8942191150E0023473C /* SelectPersonVC.swift */; };
 		FC21A8982191150E0023473C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC21A8962191150E0023473C /* Main.storyboard */; };
 		FC21A89A2191150F0023473C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC21A8992191150F0023473C /* Assets.xcassets */; };
 		FC21A89D2191150F0023473C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC21A89B2191150F0023473C /* LaunchScreen.storyboard */; };
 		FC21A8A82191150F0023473C /* StarTriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21A8A72191150F0023473C /* StarTriviaTests.swift */; };
 		FC21A8B32191150F0023473C /* StarTriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21A8B22191150F0023473C /* StarTriviaUITests.swift */; };
+		FC21A8C32191172D0023473C /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC21A8C02191172D0023473C /* Starjhol.ttf */; };
+		FC21A8C42191172D0023473C /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC21A8C12191172D0023473C /* Starjedi.ttf */; };
+		FC21A8C52191172D0023473C /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC21A8C22191172D0023473C /* Starjout.ttf */; };
+		FC46DC5821A31D5300421248 /* BlackBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46DC5721A31D5300421248 /* BlackBgView.swift */; };
+		FC46DC5B21A31E3200421248 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46DC5A21A31E3200421248 /* Constants.swift */; };
+		FC46DC5E21A3267900421248 /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46DC5D21A3267900421248 /* PersonApi.swift */; };
+		FC46DC6021A332C500421248 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46DC5F21A332C500421248 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		FC21A88F2191150E0023473C /* StarTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC21A8922191150E0023473C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC21A8942191150E0023473C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC21A8942191150E0023473C /* SelectPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPersonVC.swift; sourceTree = "<group>"; };
 		FC21A8972191150E0023473C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC21A8992191150F0023473C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC21A89C2191150F0023473C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		FC21A8AE2191150F0023473C /* StarTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC21A8B22191150F0023473C /* StarTriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarTriviaUITests.swift; sourceTree = "<group>"; };
 		FC21A8B42191150F0023473C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC21A8C02191172D0023473C /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
+		FC21A8C12191172D0023473C /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		FC21A8C22191172D0023473C /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
+		FC46DC5721A31D5300421248 /* BlackBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBgView.swift; sourceTree = "<group>"; };
+		FC46DC5A21A31E3200421248 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FC46DC5D21A3267900421248 /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
+		FC46DC5F21A332C500421248 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +111,14 @@
 		FC21A8912191150E0023473C /* StarTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				FC21A8CC219117C50023473C /* Controller */,
+				FC21A8CB219117BD0023473C /* View */,
+				FC21A8CA219117B70023473C /* Model */,
 				FC21A8922191150E0023473C /* AppDelegate.swift */,
-				FC21A8942191150E0023473C /* ViewController.swift */,
+				FC21A8942191150E0023473C /* SelectPersonVC.swift */,
+				FC46DC5C21A3265300421248 /* Services */,
+				FC46DC5921A31E1B00421248 /* Utils */,
+				FC21A8C92191178F0023473C /* Resources */,
 				FC21A8962191150E0023473C /* Main.storyboard */,
 				FC21A8992191150F0023473C /* Assets.xcassets */,
 				FC21A89B2191150F0023473C /* LaunchScreen.storyboard */,
@@ -123,6 +143,63 @@
 				FC21A8B42191150F0023473C /* Info.plist */,
 			);
 			path = StarTriviaUITests;
+			sourceTree = "<group>";
+		};
+		FC21A8C82191176E0023473C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FC21A8C12191172D0023473C /* Starjedi.ttf */,
+				FC21A8C02191172D0023473C /* Starjhol.ttf */,
+				FC21A8C22191172D0023473C /* Starjout.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FC21A8C92191178F0023473C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC21A8C82191176E0023473C /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FC21A8CA219117B70023473C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC46DC5F21A332C500421248 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC21A8CB219117BD0023473C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC46DC5721A31D5300421248 /* BlackBgView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC21A8CC219117C50023473C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FC46DC5921A31E1B00421248 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FC46DC5A21A31E3200421248 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FC46DC5C21A3265300421248 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FC46DC5D21A3267900421248 /* PersonApi.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +309,9 @@
 				FC21A89D2191150F0023473C /* LaunchScreen.storyboard in Resources */,
 				FC21A89A2191150F0023473C /* Assets.xcassets in Resources */,
 				FC21A8982191150E0023473C /* Main.storyboard in Resources */,
+				FC21A8C42191172D0023473C /* Starjedi.ttf in Resources */,
+				FC21A8C52191172D0023473C /* Starjout.ttf in Resources */,
+				FC21A8C32191172D0023473C /* Starjhol.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +336,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC21A8952191150E0023473C /* ViewController.swift in Sources */,
+				FC46DC6021A332C500421248 /* Person.swift in Sources */,
+				FC21A8952191150E0023473C /* SelectPersonVC.swift in Sources */,
 				FC21A8932191150E0023473C /* AppDelegate.swift in Sources */,
+				FC46DC5821A31D5300421248 /* BlackBgView.swift in Sources */,
+				FC46DC5E21A3267900421248 /* PersonApi.swift in Sources */,
+				FC46DC5B21A31E3200421248 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
