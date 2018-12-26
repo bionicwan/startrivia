@@ -8,7 +8,7 @@ target 'StarTrivia' do
   use_frameworks!
 
   # Pods for StarTrivia
-  pod 'Alamofire', '~> 5.0.0.beta.1'
+  pod 'Alamofire', '~> 4.8.0'
   pod 'SwiftyJSON', '~> 4.0'
 
   target 'StarTriviaTests' do
