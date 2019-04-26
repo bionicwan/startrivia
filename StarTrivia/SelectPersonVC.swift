@@ -17,12 +17,32 @@ class SelectPersonVC: UIViewController {
     @IBOutlet weak var hairLbl: UILabel!
     @IBOutlet weak var massLbl: UILabel!
     @IBOutlet weak var heightLbl: UILabel!
+    @IBOutlet weak var homeworldButton: UIButton!
+    @IBOutlet weak var vehiclesButton: UIButton!
+    @IBOutlet weak var starshipsButton: UIButton!
+    @IBOutlet weak var filmsButton: UIButton!
     
     var personApi = PersonApi()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    @IBAction func filmsClicked(_ sender: Any) {
+        
+    }
+    
+    @IBAction func starshipsClicked(_ sender: Any) {
+        
+    }
+    
+    @IBAction func vehiclesClicked(_ sender: Any) {
+        
+    }
+    
+    @IBAction func homeworldClicked(_ sender: Any) {
+        
     }
     
     @IBAction func randomClicked(_ sender: Any) {
