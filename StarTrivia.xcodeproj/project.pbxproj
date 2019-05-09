@@ -31,6 +31,8 @@
 		FC46DC5B21A31E3200421248 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46DC5A21A31E3200421248 /* Constants.swift */; };
 		FC46DC5E21A3267900421248 /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46DC5D21A3267900421248 /* PersonApi.swift */; };
 		FC46DC6021A332C500421248 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46DC5F21A332C500421248 /* Person.swift */; };
+		FC5C307E22848110008090F3 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5C307D22848110008090F3 /* Vehicle.swift */; };
+		FC5C308022848251008090F3 /* VehicleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5C307F22848251008090F3 /* VehicleApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		FC46DC5A21A31E3200421248 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FC46DC5D21A3267900421248 /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
 		FC46DC5F21A332C500421248 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FC5C307D22848110008090F3 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		FC5C307F22848251008090F3 /* VehicleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +225,7 @@
 			children = (
 				FC46DC5F21A332C500421248 /* Person.swift */,
 				ACDA5A872283164600992E83 /* Homeworld.swift */,
+				FC5C307D22848110008090F3 /* Vehicle.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -259,6 +264,7 @@
 			children = (
 				FC46DC5D21A3267900421248 /* PersonApi.swift */,
 				ACDA5A892283169800992E83 /* HomeworldApi.swift */,
+				FC5C307F22848251008090F3 /* VehicleApi.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -439,7 +445,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -450,7 +456,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8D0D54C0A28B1E02C1F834BC /* [CP] Check Pods Manifest.lock */ = {
@@ -482,7 +488,9 @@
 				FC46DC6021A332C500421248 /* Person.swift in Sources */,
 				AC270D212280C7E200AD1941 /* StarshipsVC.swift in Sources */,
 				ACDA5A882283164600992E83 /* Homeworld.swift in Sources */,
+				FC5C307E22848110008090F3 /* Vehicle.swift in Sources */,
 				AC270D1F2280C7CA00AD1941 /* VehiclesVC.swift in Sources */,
+				FC5C308022848251008090F3 /* VehicleApi.swift in Sources */,
 				ACDA5A8A2283169800992E83 /* HomeworldApi.swift in Sources */,
 				FC21A8952191150E0023473C /* SelectPersonVC.swift in Sources */,
 				FC21A8932191150E0023473C /* AppDelegate.swift in Sources */,
