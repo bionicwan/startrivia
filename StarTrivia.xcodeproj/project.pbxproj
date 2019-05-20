@@ -35,6 +35,8 @@
 		FC46DC6021A332C500421248 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46DC5F21A332C500421248 /* Person.swift */; };
 		FC5C307E22848110008090F3 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5C307D22848110008090F3 /* Vehicle.swift */; };
 		FC5C308022848251008090F3 /* VehicleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5C307F22848251008090F3 /* VehicleApi.swift */; };
+		FCDD4611229300360003AE2B /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDD4610229300360003AE2B /* Film.swift */; };
+		FCDD4613229301A00003AE2B /* FilmApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDD4612229301A00003AE2B /* FilmApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,8 @@
 		FC46DC5F21A332C500421248 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		FC5C307D22848110008090F3 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		FC5C307F22848251008090F3 /* VehicleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleApi.swift; sourceTree = "<group>"; };
+		FCDD4610229300360003AE2B /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		FCDD4612229301A00003AE2B /* FilmApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +235,7 @@
 				ACDA5A872283164600992E83 /* Homeworld.swift */,
 				FC5C307D22848110008090F3 /* Vehicle.swift */,
 				AC5010442289EE8800AA9701 /* Starship.swift */,
+				FCDD4610229300360003AE2B /* Film.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 				ACDA5A892283169800992E83 /* HomeworldApi.swift */,
 				FC5C307F22848251008090F3 /* VehicleApi.swift */,
 				AC5010462289EEBB00AA9701 /* StarshipApi.swift */,
+				FCDD4612229301A00003AE2B /* FilmApi.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -497,8 +503,10 @@
 				FC5C307E22848110008090F3 /* Vehicle.swift in Sources */,
 				AC270D1F2280C7CA00AD1941 /* VehiclesVC.swift in Sources */,
 				FC5C308022848251008090F3 /* VehicleApi.swift in Sources */,
+				FCDD4611229300360003AE2B /* Film.swift in Sources */,
 				AC5010472289EEBB00AA9701 /* StarshipApi.swift in Sources */,
 				AC5010452289EE8800AA9701 /* Starship.swift in Sources */,
+				FCDD4613229301A00003AE2B /* FilmApi.swift in Sources */,
 				ACDA5A8A2283169800992E83 /* HomeworldApi.swift in Sources */,
 				FC21A8952191150E0023473C /* SelectPersonVC.swift in Sources */,
 				FC21A8932191150E0023473C /* AppDelegate.swift in Sources */,

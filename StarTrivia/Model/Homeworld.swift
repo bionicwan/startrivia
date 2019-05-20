@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Alamofire
 
 struct Homeworld: Codable {
     let name: String
