@@ -251,12 +251,17 @@
                                     <constraint firstAttribute="height" constant="75" id="t6s-iV-8CU"/>
                                 </constraints>
                             </view>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="wPC-vY-UJ9">
+                                <rect key="frame" x="188.5" y="742" width="37" height="37"/>
+                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="OFB-kZ-Esy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="52D-xw-TDH"/>
                             <constraint firstItem="eaC-U7-Jnt" firstAttribute="top" secondItem="OFB-kZ-Esy" secondAttribute="bottom" constant="14" id="6Mw-3Q-ERH"/>
                             <constraint firstItem="eaC-U7-Jnt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Jw-Km-nYm"/>
+                            <constraint firstItem="YlT-4M-WX9" firstAttribute="top" secondItem="wPC-vY-UJ9" secondAttribute="bottom" constant="20" id="BzR-Xf-AMw"/>
                             <constraint firstItem="sIc-Pl-Bt9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CRD-fw-Lec"/>
                             <constraint firstAttribute="bottom" secondItem="sIc-Pl-Bt9" secondAttribute="bottom" id="IaB-XJ-Vc9"/>
                             <constraint firstItem="WBY-fv-IjR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="V3P-av-rEh"/>
@@ -265,6 +270,7 @@
                             <constraint firstItem="sIc-Pl-Bt9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dxl-6b-ugw"/>
                             <constraint firstItem="OFB-kZ-Esy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="e7U-mi-WOD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WBY-fv-IjR" secondAttribute="trailing" constant="20" id="j8o-h2-mWq"/>
+                            <constraint firstItem="wPC-vY-UJ9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mMb-1K-NGd"/>
                             <constraint firstItem="eaC-U7-Jnt" firstAttribute="width" secondItem="OFB-kZ-Esy" secondAttribute="width" id="o0A-jC-ICg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sIc-Pl-Bt9" secondAttribute="trailing" id="oQC-Nl-3bI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YlT-4M-WX9" secondAttribute="bottom" constant="20" id="t7m-Rh-iMh"/>
@@ -282,6 +288,7 @@
                         <outlet property="homeworldButton" destination="cXR-Qr-0JJ" id="xSf-za-4cZ"/>
                         <outlet property="massLbl" destination="aR9-Ej-zev" id="xt0-UI-4Hl"/>
                         <outlet property="nameLbl" destination="Zbz-tQ-AVw" id="TQ0-2l-5ZB"/>
+                        <outlet property="spinner" destination="wPC-vY-UJ9" id="lKd-40-kc7"/>
                         <outlet property="starshipsButton" destination="v6M-n2-y1B" id="oX8-xO-KVK"/>
                         <outlet property="vehiclesButton" destination="1pk-Im-7Pm" id="5nu-HK-WJe"/>
                     </connections>

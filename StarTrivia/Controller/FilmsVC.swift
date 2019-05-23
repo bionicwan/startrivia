@@ -31,7 +31,6 @@ class FilmsVC: UIViewController, PersonProtocol {
         nextBtn.isEnabled = films.count > 1
         guard let firstFilm = films.first else { return }
         getFilm(url: firstFilm)
-        setButtonState()
     }
     
     func getFilm(url: String) {
@@ -48,7 +47,8 @@ class FilmsVC: UIViewController, PersonProtocol {
         directorLbl.text = film.director
         producerLbl.text = film.producer
         releasedLbl.text = film.releaseDate
-        crawlLbl.text = film.crawl
+        let stripped = film.crawl.replacingOccurrences(of: "\n", with: " ").replacingOccurrences(of: "\r", with: "")
+        crawlLbl.text = stripped
     }
     
     @IBAction func previousClicked(_ sender: Any) {
@@ -64,7 +64,7 @@ class FilmsVC: UIViewController, PersonProtocol {
     
     func setButtonState() {
         nextBtn.isEnabled = currentFilm == films.count - 1 ? false : true
-        nextBtn.isEnabled = currentFilm == 0 ? false : true
+        previousBtn.isEnabled = currentFilm == 0 ? false : true
         getFilm(url: films[currentFilm])
     }
     
